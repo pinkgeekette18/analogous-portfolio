@@ -1,0 +1,213 @@
+/****** BASE STYLES ******/
+* {
+	box-sizing: border-box;
+}
+
+h1, h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2, h4, h5, h6, p {
+	color: #095256;
+    font-family: 'Roboto', sans-serif;
+}
+
+#work {
+	height: 1450px;
+}
+
+#about {
+	height: 850px;
+}
+
+#contact {
+	height: 450px;
+}
+
+/****** GRID ******/
+
+.full-width {
+	width: 1400px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.half-width {
+	width: 700px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.third-width {
+	width: 350px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/****** HEADER ******/
+
+header {
+	background: url("../img/sky-home.png");
+	background-size: cover;
+	height: 800px;
+}
+
+header h3 {
+	color: #ff6105;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 60px 25px;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+	text-transform: lowercase;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	color: #ff6105;
+	padding-left: 80px;
+}
+
+header h1 {
+	clear: both;
+	color: #ff6105;
+	font-size: 60px;
+	font-weight: 700;
+	padding-left: 280px;
+}
+
+header h2 {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 50px;
+	padding: 0px 0 20px 80px;
+	text-align: center;
+	width: 1300px;
+}
+
+/****** WORK ******/
+
+#work img {
+	border: 1px solid #b7b7b7;
+	height: 350px;
+	margin-bottom: 30px;
+	width: 550px;
+}
+
+#work h4 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#work h5 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#work h6 {
+	text-align: center;
+	font-size: 14px;
+}
+#work p {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+/****** ABOUT ******/
+
+#about {
+	background: #087e8b;
+}
+
+#about img#aboutme-img {
+	margin: 80px 0 0 150px;
+	border: 3px solid #b7b7b7;
+	border-radius: 50%;
+}
+
+#about h4 {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#about h5 {
+	color: #ff6105;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#about p {
+	color: white;
+	font-size: 24px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+	background: #095156;
+}
+
+#contact .full-width {
+	padding: 25px 0;
+}
+
+/*#contact h4, #contact #email-header, #contact #socialmedia-header, #contact ul {
+	padding-left: 115px;
+}*/
+#contact h4 {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#contact h5 {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact p {
+	color: white;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center; 
+}
+
+
+#contact ul li{
+    display: inline-block;
+}
+
+footer {
+	background: #095156;	
+}
+footer p {
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
