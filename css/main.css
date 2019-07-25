@@ -164,32 +164,19 @@ header h2 {
 }
 
 #contact .full-width {
-	padding: 110px 0;
+	padding: 50px 0;
 }
 
-#contact-info {
-	
+#contact .third-width {
+	margin-left: 100px;
 }
-
-#social-media {
-
-}
-
-#meet-up {
-
-	
-}
-#contact h4, #contact #email-header, #contact #socialmedia-header, #contact ul {
-	padding-left: 115px;
-}
-
 
 #contact h4 {
 	color: white;
 	font-size: 36px;
 	font-weight: bold;
-	padding-top: 40px;
 	text-align: center;
+	margin-left: 50px;
 }
 
 #contact h5 {
@@ -197,6 +184,7 @@ header h2 {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+	margin-right: 20px;
 }
 
 #contact a {
@@ -213,15 +201,6 @@ header h2 {
 
 
 #contact ul li{
-    display: inline-block;
-}
-
-footer {
-	background: #095156;	
-}
-footer p {
-	color: white;
-	font-size: 18px;
-	font-weight: normal;
-	text-align: center;
+	display: inline-block;
+	padding: 10px;
 }
