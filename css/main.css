@@ -164,14 +164,14 @@ header h2 {
 }
 
 #contact .full-width {
-	padding: 25px 0;
+	padding: 110px 0;
 }
 
 #contact-info {
 	
 }
 
-#socialmedia {
+#social-media {
 
 }
 
@@ -179,9 +179,11 @@ header h2 {
 
 	
 }
-/*#contact h4, #contact #email-header, #contact #socialmedia-header, #contact ul {
+#contact h4, #contact #email-header, #contact #socialmedia-header, #contact ul {
 	padding-left: 115px;
-}*/
+}
+
+
 #contact h4 {
 	color: white;
 	font-size: 36px;
