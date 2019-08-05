@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Catering</title>
+<link type="text/css" href="css/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
+<script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/forms.css" />
+<script type="text/javascript">
+//datepicker
+$(function() {
+		$( "#datepicker" ).datepicker({
+			showOn: "button",
+			buttonImage: "images/calendar.gif",
+			buttonImageOnly: true
+		});
+	});
+
+</script>
+<style type="text/css">
+body {
+	background-image: url(images/backgroundSwirls.gif);
+	margin:auto;
+	padding:0;
+}
+</style>
+</head>
+
+<body class="fixed">
+<div id="container">
+<div id="header">
+<a href="index.html"><img src="images/logo.gif" alt="logo" width="137" height="170" border="0" /></a><img src="images/header.gif" alt="header" width="641" height="170" />
+</div><!--end header-->
+<div id="navigation">
+<table width="778"  cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="index.html"><img src="images/homeBtn.gif" alt="home button" width="89" height="56" border="0" /></a></td>
+    <td><a href="about.html"><img src="images/aboutBtn.gif" alt="about us button" width="120" height="56" border="0" /></a></td>
+    <td><a href="photo.html"><img src="images/photoBtn.gif"alt="menu button" width="172" height="56" border="0" /></a></td>
+    <td><a href="order.html"><img src="images/orderingBtn.gif" alt="ordering button" width="106" height="56"  border="0" /></a></td>
+    <td><a href="cater.html"><img src="images/cateringBtn.gif" alt="catering button" width="103" height="56" border="0" /></a></td>
+    <td><a href="faq.html"><img src="images/faqBtn.gif" alt="locations button" width="73" height="56" border="0" /></a></td>
+    <td><a href="contact.html"><img src="images/contactBtn.gif" alt="contact us" width="115" height="56" border="0" /></a></td>
+  </tr>
+</table
+></div><!--end navbar-->
+<div id="mainContent">
+<h1>Catering</h1>
+<p>Need an event catered, give us the details in the form below and we'll send you a price quote.</p>
+<form id="catering" name="catering" method="post" action="">
+  <fieldset>
+    <legend>Catering Request Form</legend>
+    <p>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" id="firstName" />
+    </p>
+    <p>
+      <label for="lastName">Last Name:</label>
+      <input type="text" name="lastName" id="lastName" />
+    </p>
+    <p>
+      <label for="phone">Phone:</label>
+      <input type="text" name="phone" id="phone" />
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email" />
+    </p>
+    <p>What is the best way to contact you?</p>
+    <p>
+      <label>
+        <input type="checkbox" name="bestWay" value="email" id="bestWay_0" />
+        Email</label>
+      <br />
+      <label>
+        <input type="checkbox" name="bestWay" value="phone" id="bestWay_1" />
+        Phone</label>
+      </p>
+    <p>If contact is by Phone, can we leave you a message?
+     <label>
+        <br />
+        <input type="radio" name="message" value="yes" id="RadioGroup1_0" />
+        Yes</label>
+      <br />
+      <label>
+        <input type="radio" name="message" value="no" id="RadioGroup1_1" />
+        No</label>
+      <br />
+    </p>
+  </fieldset>
+  <fieldset>
+  <legend>Details</legend>
+  <p>
+    <label for="event">Type of event:</label>
+    <input type="text" name="event" id="event" />
+  </p>
+  <p>Is the event informal or formal?</p>
+  <p>
+    <label>
+      <input type="radio" name="event" value="formal" id="event_0" />
+      Formal</label>
+    <br />
+    <label>
+      <input type="radio" name="event" value="informal" id="event_1" />
+      Informal</label>
+  </p>
+  <p>Number of people attending the event?</p>
+  <p>
+    <label for="people"></label>
+    <select name="people" id="people">
+      <option value="" selected="selected">Select One</option>
+      <option value="1-20">1-20</option>
+      <option value="21-40">21-40</option>
+      <option value="41-60">41-60</option>
+      <option value="61-80">61-80</option>
+      <option value="81-100">81-100</option>
+      <option value="101 or more">101 or more</option>
+    </select> 
+    </p>
+  <p>When is the event?</p>
+    <input type="text" id="datepicker" />
+  <p>
+    <label for="know">Anything else we need to know about the event?</label>
+    </p>
+  <p>
+    <textarea name="know" id="know" cols="45" rows="5"></textarea>
+    <br />
+  </p>
+  </fieldset>
+</form>
+
+</div><!--end mainContent-->
+<br class="clearfloat" />
+<div id="footer">
+<p>copyright&copy; cake pops, All rights reserved.</p>
+</div><!--end footer-->
+</div><!--end container-->
+</body>
+</html>
