@@ -27,23 +27,23 @@ h2, h4, h5, h6, p {
 /****** GRID ******/
 
 .full-width {
-	width: 1400px;
 	margin: 0 auto;
 	overflow: auto;
+	width: 1400px;
 }
 
 .half-width {
-	width: 700px;
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
+	width: 700px;
 }
 
 .third-width {
-	width: 350px;
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
+	width: 350px;
 }
 
 /****** HEADER ******/
@@ -71,19 +71,19 @@ nav ul li{
 }
 
 nav ul li a {
-	text-transform: lowercase;
-	text-decoration: none;
+	color: #ff6105;
 	font-size: 24px;
 	font-weight: 700;
-	color: #ff6105;
 	padding: 60px 25px;
+	text-decoration: none;
+	text-transform: lowercase;
 }
 
 header h1 {
 	color: #ff6105;
 	font-size: 60px;
 	font-weight: bold;
-	
+	padding-left: 280px;
 }
 
 header h2 {
@@ -117,15 +117,15 @@ header h2 {
 }
 
 #work h6 {
-	text-align: center;
 	font-size: 16px;
 	overflow: auto;
+	text-align: center;
 }
 
 #work a {
-	text-decoration: none;
 	color: #095256;
     font-family: 'Roboto', sans-serif;
+	text-decoration: none;
 }
 #work p {
 	font-size: 24px;
@@ -139,9 +139,9 @@ header h2 {
 }
 
 #about img#aboutme-img {
-	margin: 80px 0 0 150px;
 	border: 3px solid #b7b7b7;
 	border-radius: 50%;
+	margin: 80px 0 0 150px;
 }
 
 #about h4 {
@@ -181,21 +181,21 @@ header h2 {
 	color: white;
 	font-size: 36px;
 	font-weight: bold;
-	text-align: center;
 	margin-left: 50px;
+	text-align: center;
 }
 
 #contact h5 {
 	color: white;
 	font-size: 24px;
 	font-weight: bold;
-	text-align: center;
 	margin-right: 20px;
+	text-align: center;
 }
 
 #contact a {
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 }
 
 #contact p {
