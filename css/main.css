@@ -132,6 +132,42 @@ header h2 {
 	font-weight: normal;
 }
 
+/****** EXTRA WORK ******/
+
+#extra-work img {
+	border: 1px solid #b7b7b7;
+	height: 350px;
+	margin-bottom: 50px;
+	width: 550px;
+}
+#extra-work h4 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 5px 5px;
+	text-align: center;
+}
+
+#extra-work h5 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#extra-work h6 {
+	font-size: 16px;
+	overflow: auto;
+	text-align: center;
+}
+
+#extra-work a {
+	color: #095256;
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#extra-work p {
+	font-size: 24px;
+	font-weight: normal;
+}
 /****** ABOUT ******/
 
 #about {
